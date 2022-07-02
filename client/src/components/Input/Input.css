@@ -31,3 +31,7 @@ input:focus, textarea:focus, select:focus{
   /* width: 30px; */
   border-radius: 50%;
 }
+
+box-icon{
+  color: #fff;
+}

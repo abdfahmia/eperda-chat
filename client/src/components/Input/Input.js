@@ -1,6 +1,5 @@
 import React from 'react';
-
-import send from '../../icons/bx-send.svg';
+import 'boxicons';
 
 import './Input.css';
 
@@ -14,7 +13,7 @@ const Input = ({ setMessage, sendMessage, message }) => (
       onChange={({ target: { value } }) => setMessage(value)}
       onKeyPress={event => event.key === 'Enter' ? sendMessage(event) : null}
     />
-    <button className="sendButton" onClick={e => sendMessage(e)}><img src={send} alt="send" /></button>
+    <button className="sendButton" onClick={e => sendMessage(e)}><box-icon name='send'></box-icon></button>
   </form>
 )
 

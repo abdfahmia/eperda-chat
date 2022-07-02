@@ -1,3 +1,5 @@
+
+
 html, body {
   font-family: 'Roboto', sans-serif;
   padding: 0;
@@ -18,7 +20,9 @@ html, body {
   text-align: center;
   height: 100vh;
   align-items: center;
-  background-color: #1A1A1D;
+  background-color: #fff;
+  font-family: 'poppins';
+
 }
 
 .joinInnerContainer {
@@ -26,28 +30,34 @@ html, body {
 }
 
 .joinInput {
-  border-radius: 0;
+  border-radius: 10px;
   padding: 15px 20px;
   width: 100%;
 }
 
 .heading {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 2.5em;
   padding-bottom: 10px;
-  border-bottom: 2px solid white;
+  /* border-bottom: 2px solid rgb(0, 0, 0); */
+  margin-bottom: 6rem;
+}
+
+.heading img{
+  width: 200px;
 }
 
 .button {
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
-    background: #2979FF;
+    background: #d01e1e;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     display: inline-block;
     border: none;
     width: 100%;
+    font-weight: bold;
 }
 
 .mt-20 {
